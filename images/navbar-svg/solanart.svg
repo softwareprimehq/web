@@ -1,0 +1,15 @@
+<svg id="Group_67875" data-name="Group 67875" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="483.199" height="483.2" viewBox="0 0 483.199 483.2">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_24116" data-name="Rectangle 24116" width="483.2" height="483.2" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_67874" data-name="Group 67874" clip-path="url(#clip-path)">
+    <circle id="Ellipse_696" data-name="Ellipse 696" cx="231.6" cy="231.6" r="231.6" transform="translate(10 10)" fill="none" stroke="#17234c" stroke-miterlimit="10" stroke-width="20"/>
+    <path id="Path_23491" data-name="Path 23491" d="M323.677,241.208a259.089,259.089,0,0,1-71.94,87.311c-54.371,42.5-98.459,43.007-162.139,37.271,61.8-16.382,103.078-31.969,139.59-90.487a259.573,259.573,0,0,0,17.1-32.111,259.458,259.458,0,0,1,77.388-1.984" transform="translate(16 -16)" fill="#17234c"/>
+    <path id="Path_23492" data-name="Path 23492" d="M311.395,247.8a259.446,259.446,0,0,0-77.351,2.02,258.434,258.434,0,0,0,20.673-74.575,260.507,260.507,0,0,1,81.828-5.52A259.7,259.7,0,0,1,311.395,247.8Z" transform="translate(16 -16)" fill="none" stroke="#17234c" stroke-miterlimit="10" stroke-width="20"/>
+    <path id="Path_23493" data-name="Path 23493" d="M246.326,243.228a265.012,265.012,0,0,0-35.249,8.84c-65.628,21.358-90.666,57.725-121.442,113.755C99.377,302.578,110.488,259.9,164.859,217.4A259.479,259.479,0,0,1,267,168.653a258.434,258.434,0,0,1-20.673,74.575" transform="translate(16 -16)" fill="#17234c"/>
+    <path id="Path_23494" data-name="Path 23494" d="M267,168.653A259.481,259.481,0,0,0,164.859,217.4c-54.371,42.5-65.482,85.182-75.224,148.427-12.483-62.776-16.6-106.684,19.916-165.2a259.764,259.764,0,0,1,154.31-113.9A261.021,261.021,0,0,1,267,168.653" transform="translate(14.139 -13.453)" fill="none" stroke="#17234c" stroke-width="20"/>
+    <path id="Path_23495" data-name="Path 23495" d="M82.583,168.653A259.481,259.481,0,0,1,184.723,217.4c54.371,42.5,65.482,85.182,75.224,148.427,12.483-62.776,16.6-106.684-19.916-165.2a259.764,259.764,0,0,0-154.31-113.9,261.021,261.021,0,0,0-3.138,81.935" transform="translate(517.391 188.411) rotate(103)" fill="none" stroke="#17234c" stroke-width="20"/>
+  </g>
+</svg>

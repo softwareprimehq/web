@@ -1,0 +1,172 @@
+<div class="modal fade" id="offer-contact-model" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg contactus_main resource-whitepaper">
+            <div class="modal-content contactus border-0">
+                <div class="modal-header border-bottom-0 py-0 binance-close-div">
+                    <div class="binance-close-btn">
+                        <a href="javascript:void(0)"><img loading="lazy" class="lazyload"
+                                src="../s3/images/icons/close-popupaccf.webp?format=webp" alt="airbnb-clone"
+                                data-bs-dismiss="modal" aria-label="Close" /></a>
+                    </div>
+                </div>
+                <div class="modal-body ">
+                    <div class="right">
+                        <form id="offer-contact-form">
+                            <!--  -->
+                            <input type="hidden" id="basename" name="basename" value="vrbo-clone">
+                            <input type="hidden" name="new_validation_check" id="new_validation_check" value="no">
+                            <div class="row">
+                                <div class="col-lg-7 col-12">
+                                    <div class="from_left">
+                                        <label class="form-label">Your Name</label>
+                                        <div class="form-group mb-2">
+                                            <input type="text" class="form-control" id="full_name1" name="full_name1"
+                                                placeholder="Full Name (Required)" />
+                                            <div class="svg">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                                    <path fill-rule="evenodd"
+                                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <label class="form-label">Email Id</label>
+                                        <div class="form-group mb-2">
+                                            <input type="email" name="email1" id="email1" class="form-control"
+                                                placeholder="Enter Your Email Id (Required)" />
+                                            <div class="svg">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <label class="form-label">Phone Number</label>
+                                        <div class="input-group phoneno mb-2 country-field">
+                                            <div class="input-group-text">
+                                                <div class="custom-select1 country-code1">
+                                                    <input type="hidden" name="country_code" id="country_code">
+                                                    <span id="select_value3"
+                                                        class="country-code-placeholder select_value2"></span>
+                                                        <label for="phone_code1" class="form-label d-none">Country Code</label>
+                                                    <select name="phone_code1_new" class="custom-select phone_code1_new"
+                                                        data-error-placement="container"
+                                                        data-error-container="#number_code_error00"
+                                                        id="phone_code1_new">
+                                                        <option value="Select">Select</option>
+                                                    </select>
+                                                </div>
+
+                                                <!-- Phone Number (Optional) -->
+
+                                                <div class="append_clone" style="position: relative;"></div>
+                                                <input type="number" name="phone_number1" id="phone_number1"
+                                                    class="form-control" data-error-placement="container"
+                                                    data-error-container="#phone_number_error00" autocomplete="off"
+                                                    placeholder="Phone Number (Optional) " />
+
+                                                <div class="svg icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        fill="currentColor" class="bi bi-telephone-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span id="number_code_error00"></span>
+                                            <span id="phone_number_error00"></span>
+                                        </div>
+                                        <label class="form-label msg">Message</label>
+                                        <div class="form_right h-100">
+                                            <div class="form-group mb-2 h-100">
+                                                <textarea class="form-control" style="height: 150px; resize: unset;"
+                                                    name="message" id="message1"
+                                                    placeholder="Type Your Text (Optional)"></textarea>
+                                                <div class="svg">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        fill="currentColor" class="bi bi-chat-left-dots-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="py-3 text-lg-start text-center binance-pop-form">
+
+                                            <input class="theme_btn_resource1 qmar-contact-btn submit1 binan-sub"
+                                                type="submit" name="submit1" value="submit" id="submit1"
+                                                data-bs-toggle="modal">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="topcontact">
+                                        <div class="row">
+                                            <div class=" col-lg-12">
+                                                <div
+                                                    class="leftin mb-1 flex-wrap justify-content-md-around justify-content-lg-start">
+                                                    <div class="d-flex align-items-center mb-3 d-none">
+                                                        <div class="svg">
+                                                            <img loading="lazy" src="../s3/images/skype.png" class="" alt="skype">
+                                                        </div>
+                                                        <div class="">
+                                                            <span> Skype </span>
+                                                            <a href="skype:trioangle?chat"
+                                                                style="text-transform:initial;">trioangle</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <div class="svg">
+                                                            <img loading="lazy" class="lazyload"
+                                                                src="../s3/images/svg-icons/email.svg"
+                                                                alt="Contactus" />
+                                                        </div>
+                                                        <div>
+                                                            <span>Mail ID</span>
+                                                            <a href="mailto:sales@trioangle.com"
+                                                                class="text-lowercase">sales@trioangle.com</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="svg whatsapp-svg">
+                                                            <img loading="lazy" src="../s3/images/whatsapp.png" class="contact_whatsapp"
+                                                                alt="whatsapp">
+                                                        </div>
+                                                        <div>
+                                                            <span>Whatsapp</span>
+                                                            <a target="_blank"
+                                                                href="https://web.whatsapp.com/send?phone=+916379630152&amp;text=Hi,%20I%20have%20contacted%20you%20through%20'Trioangle'%20website.%20let's%20discuss%20about%20your%20clone%20script.">+91
+                                                                6379630152</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12 d-none d-md-block">
+                                                <div class="mt-1 mb-0">
+                                                    <img loading="lazy" src="../s3/images/contact_btm-newaccf.webp?format=webp"
+                                                        alt="Trioangle" class="img-fluid lazyload" />
+                                                    <!-- <img src="/s3/images/contact_btm-new.webp?format=webp"alt="bottom"> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <center><span id="result" class="result"></span></center>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,203 @@
+<div class="contactus_main">
+    <div class="container" style="position:relative;">
+        <div class="row justify-content-center">
+            <div class="contactus col-xl-10 m-auto col-12">
+                <div class="right">
+                    <form id="form">
+                        <!--  -->
+                        <div class="row flex-column-reverse flex-lg-row">
+                            <div class="col-lg-8 col-12">
+                                <div class="from_left">
+                                    <label class="form-label">Your Name</label>
+                                    <div class="form-group mb-2">
+                                        <input type="text" class="form-control" id="full_name" name="full_name"
+                                            placeholder="Full Name (Required)" />
+                                        <div class="svg">
+                                            <img loading="lazy" class="lazyload"
+                                                src="../s3/images/svg-icons/yourname.svg"
+                                                alt="Contactus" />
+                                        </div>
+                                    </div>
+                                    <label class="form-label">Email Id</label>
+                                    <div class="form-group mb-2">
+                                        <input type="email" name="email" id="email" class="form-control"
+                                            placeholder="Enter Your Email Id (Required)" />
+                                        <div class="svg">
+                                            <img loading="lazy" class="lazyload"
+                                                src="../s3/images/svg-icons/email.svg"
+                                                alt="Contactus" />
+                                        </div>
+                                    </div>
+                                    <label class="form-label">Phone Number</label>
+                                    <div class="input-group phoneno mb-2 country-field">
+                                        <div class="input-group-text">
+                                            <div class="custom-select1 country-code">
+                                                <input type="hidden" name="phone_code_select"
+                                                    id="phone_code_select">
+                                                <span id="select_value"
+                                                    class="country-code-placeholder">Select</span>
+                                                <label for="phone_code" class="form-label d-none">Country Code</label>
+                                                <select name="phone_code" class="custom-select phone_code"
+                                                    id="phone_code">
+                                                    <option value="Select">Select</option>
+
+                                                </select>
+                                            </div>
+
+                                            <input type="number" name="phone_number" id="phonenumber"
+                                                class="form-control" placeholder="Phone Number (Optional)" />
+
+                                            <div class="svg icon">
+                                                <img loading="lazy" class="lazyload"
+                                                    src="../s3/images/svg-icons/phone.svg"
+                                                    alt="Contactus" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group error_parent" id="remove-product">
+                                        <label for="exampleFormControlSelect1">Products</label>
+                                        <div class="product-select">
+                                            <i class="bi bi-grid-1x2-fill product-icons"></i>
+                                            <select name="product_select" id="product_select"
+                                                class="form-control offer-product-select"
+                                                aria-label="productselect">
+                                                <option value="">Select</option>
+                                                <option value="Airbnb Clone">Airbnb Clone</option>
+                                                <option value="Car Rental Script">Car Rental Script</option>
+                                                <option value="Boat Rental Script">Boat Rental Script</option>
+                                                <option value="Hotel Booking Script">Hotel Booking Script</option>
+                                                <option value="Space Rental Script">Space Rental Script</option>
+                                                <option value="Host Experience Script">Host Experience Script
+                                                </option>
+                                                <option value="Uber Clone">Uber Clone</option>
+                                                <option value="Uber For Tow Truck">Uber For Tow Truck</option>
+                                                <option value="Uber For Handyman Services App">Uber For Handyman
+                                                    Services App</option>
+                                                <option value="Fancy Clone">Fancy Clone</option>
+                                                <option value="Tinder Clone">Tinder Clone</option>
+                                                <option value="Just Eat Clone">Just Eat Clone</option>
+                                                <option value="UberEats Clone">UberEats Clone</option>
+                                                <option value="Grocery Delivery Script">Grocery Delivery Script
+                                                </option>
+                                                <option value="Pharmacy Delivery Script">Pharmacy Delivery Script
+                                                </option>
+                                                <option value="Alcohol Delivery Script">Alcohol Delivery Script
+                                                </option>
+                                                <option value="Delivery All Script">Delivery All Script</option>
+                                                <option value="Letgo Clone">Letgo Clone</option>
+                                                <option value="Amazon Clone">Amazon Clone</option>
+                                                <option value="Youtube Clone">Youtube Clone</option>
+                                                <option value="Gojek Clone">Gojek Clone</option>
+                                                <option value="Delivery Script">Delivery Script</option>
+                                                <option value="WhatsApp Clone">WhatsApp Clone</option>
+                                                <option value="Udemy Clone">Udemy Clone</option>
+                                                <option value="Laundry Service Script">Laundry Service Script
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group error_parent" id="remove-reachus">
+                                        <label for="exampleFormControlSelect1">How Did You Reach Us?</label>
+                                        <div class="product-select">
+                                            <i class="bi bi-geo-alt-fill product-icons"></i>
+                                            <select name="reachus_select" id="reachus_select"
+                                                class="form-control offer-reachus-select"
+                                                aria-label="reachusselect">
+                                                <option value="">Select</option>
+                                                <option value="Search Engine">Search Engine</option>
+                                                <option value="Recommended By Business Owners">Recommended By
+                                                    Business Owners</option>
+                                                <option value="Social Media">Social Media</option>
+                                                <option value="Blog or Publication">Blog or Publication</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="reachus-textarea-div mb-3">
+                                            <textarea name="reachus" id="reach-textarea"
+                                                style="height: 150px; resize: unset;" class="form-control"
+                                                placeholder="Please tell how did you reach us ?"></textarea>
+                                            <i class="bi bi-chat-dots-fill"></i>
+                                        </div>
+                                    </div>
+                                    <label class="form-label msg">Message</label>
+                                    <div class="form_right h-100">
+                                        <div class="form-group mb-2 h-100">
+                                            <textarea class="form-control" style="height: 150px; resize: unset;"
+                                                name="message" id="message"
+                                                placeholder="Type Your Text (Optional)"></textarea>
+                                            <div class="svg">
+                                                <img loading="lazy" class="lazyload"
+                                                    src="../s3/images/svg-icons/message.svg"
+                                                    alt="Contactus" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="py-3 text-lg-start text-center">
+                                        <input class="qmar-contact-btn submit sales-submit theme_btn" type="submit"
+                                            name="submit" value="submit" id="submit">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="topcontact mb-4 mb-lg-0">
+                                    <div class="row">
+                                        <div class=" col-lg-12">
+                                            <div
+                                                class="leftin mb-1 flex-wrap justify-content-md-around justify-content-lg-start">
+                                                <div class="d-flex align-items-center mb-3 d-none">
+                                                    <div class="svg">
+                                                        <img loading="lazy" src="../s3/images/skype.png"
+                                                            class="" alt="skype">
+                                                    </div>
+                                                    <div class="">
+                                                        <span> Skype </span>
+                                                        <a href="skype:trioangle?chat"
+                                                            style="text-transform:initial;">trioangle</a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center mb-3">
+                                                    <div class="svg">
+                                                        <img loading="lazy" class="lazyload"
+                                                            src="../s3/images/svg-icons/email.svg"
+                                                            alt="Contactus" />
+                                                    </div>
+                                                    <div>
+                                                        <span>Mail ID</span>
+                                                        <a id="service-mail" href="mailto:sales@trioangle.com"
+                                                            class="text-lowercase">sales@trioangle.com</a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="svg whatsapp-svg">
+                                                        <img loading="lazy" src="../s3/images/whatsapp.png" class="contact_whatsapp"
+                                                            alt="whatsapp">
+                                                    </div>
+                                                    <div>
+                                                        <span>Whatsapp</span>
+                                                        <a  id="service-number" target="_blank"
+                                                            href="https://web.whatsapp.com/send?phone=+916379630152&amp;text=Hi,%20I%20have%20contacted%20you%20through%20'Trioangle'%20website.%20let's%20discuss%20about%20your%20clone%20script.">+91
+                                                            6379630152</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 d-none d-md-block">
+                                            <div class="mt-1 mb-0">
+                                                <img loading="lazy" src="../s3/images/contact_btm-newaccf.webp?format=webp"
+                                                    alt="Trioangle" class="img-fluid lazyload w-100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <center><span id="result" class="result"></span></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
