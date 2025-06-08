@@ -743,41 +743,6 @@
     </div>
     <!--Our Product END-->
 
-
-    <!--Testimonial BEGIN-->
-    
-    <div id="testimonial-placeholder"></div>
-    <script>
-            fetch("old-page-common/testimonial.html")
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById("testimonial-placeholder").innerHTML = data;
-                })
-                .catch(error => console.error('Error loading testimonial:', error));
-     
-    </script>
-
-    <!-- Modal -->
-    <div class="modal fade client-video-modal pe-0" id="miloud" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header p-0 border-0 d-block">
-                    <button type="button" class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close"><i
-                            class="bi bi-x-circle"></i></button>
-                </div>
-                <div class="modal-body p-0">
-                    <div class="client-videos">
-                        <iframe id="client_view_video" title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--Testimonial END-->
-
-
     <div class="technologies">
         <div class="title my-3 pt-3 pt-md-5">
             <div class="container">
