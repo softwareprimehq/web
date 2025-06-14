@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="tFLtfy_u7mlzPVXpwLEfiH7mzpfFlfBwyU931j_2Rss" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
-    <link rel="stylesheet" type="text/css" href="https://www.trioangle.com/redesign/css/navbar-critical.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/navbar-critical.min.css" />
 
     <link rel="stylesheet" href="css/navbar.min.css" media="print"
         onload="this.onload=null;this.removeAttribute(`media`);">
@@ -91,7 +91,7 @@
     <!--Header BEGIN-->
     <div id="header-placeholder"></div>
     <script>
-        fetch("https://www.trioangle.com/redesign/common/header.html")
+        fetch("old-page-common/header.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById("header-placeholder").innerHTML = data;
@@ -4817,7 +4817,7 @@
     <!--Footer BEGIN-->
     <div id="footer-placeholder"></div>
     <script>
-        fetch("https://www.trioangle.com/redesign/common/footer.html")
+        fetch("old-page-common/footer.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById("footer-placeholder").innerHTML = data;
