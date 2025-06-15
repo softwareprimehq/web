@@ -1634,7 +1634,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	left:0;
 	background-size:100%;
 	filter:blur(180px);
-	background-image:linear-gradient(145deg, #ff1e94 18%, #3186ff 60%, #31d4ff 100%) !important;
+	background-image:linear-gradient(145deg, #00f068 18%, #02cc5a 60%, #047d38 100%) !important;
 	border-radius:0rem 15rem 15rem 0rem;
 	opacity:.7
 }
