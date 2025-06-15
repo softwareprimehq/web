@@ -289,7 +289,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	background-color:#d5cfff
 }
 .btn-contactus.active{
-	background:rgba(0,0,0,0) linear-gradient(100deg, #4bb0fa 0%, #7d09ff 50%, #f20be7 100%) 0% 0% no-repeat padding-box;
+	background:linear-gradient(0deg, #73ffb0 0%, #05cc5b 100%);
 	color:#fff;
 	transition:.3s all
 }
