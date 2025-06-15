@@ -258,9 +258,9 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	padding:15px 40px
 }
 .btn-get-access:hover{
-	background-color:#8e7bff;
+	background-color:#00f068;
 	color:#fff !important;
-	background-color:#6b52ff
+	background-color:#04c256
 }
 .btn-see-more{
 	border:2px solid #ffcc01;
@@ -272,7 +272,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	background-color:#ffeb9a
 }
 .btn-view-demo{
-	background-color:#221d2d;
+	background-color:#018239;
 	color:#fff
 }
 .btn-view-demo:hover{
@@ -339,7 +339,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	height:30px
 }
 .wave-play .video i{
-	background:rgba(0,0,0,0) linear-gradient(129deg, #4d3bff 0%, #c800f8 100%) 0% 0% no-repeat padding-box;
+	background:rgba(0,0,0,0) linear-gradient(129deg, #00f068 0%, #029c44 100%) 0% 0% no-repeat padding-box;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:rgba(0,0,0,0);
 	font-size:17px;
