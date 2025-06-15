@@ -294,7 +294,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	transition:.3s all
 }
 .btn-contactus.active:hover{
-	background:rgba(0,0,0,0) linear-gradient(100deg, #4bb0fa 0%, #7d09ff 30%, #f20be7 70%) 0% 0% no-repeat padding-box
+	background:rgba(0,0,0,0) linear-gradient(100deg, #53f59c 0%, #00f068 30%, #05b552 70%) 0% 0% no-repeat padding-box
 }
 .w-85{
 	width:85% !important
@@ -1695,7 +1695,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	background:unset
 }
 .main-wrapper .enquiry-input .input-group-text{
-	background:rgba(0,0,0,0) linear-gradient(132deg, #4bb0fa 0%, #7d09ff 50%, #f20be7 100%) 0% 0% no-repeat padding-box;
+	background:rgba(0,0,0,0) linear-gradient(132deg, #53f59c 0%, #00f068 50%, #05b552 100%) 0% 0% no-repeat padding-box;
 	box-shadow:inset 0px 0px 2px rgba(0,0,0,.4784313725),0px 2px 4px rgba(87,75,172,.2588235294);
 	border-radius:0px 55px 55px 0px;
 	width:max-content;
