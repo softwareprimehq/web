@@ -972,7 +972,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 }
 .chat-notify{
-	background-color:#dc3545;
+	background-color:#00f068;
 	box-shadow:0px 3px 14px 1px rgba(0,0,0,.1607843137);
 	right:24px;
 	position:absolute;
@@ -989,7 +989,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 	top:0;
 	right:-3px;
 	bottom:0;
-	background-color:#dc3545;
+	background-color:#00f068;
 	margin:auto;
 	transform:scale(0.3);
 	transform-origin:center center;
@@ -1284,7 +1284,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 }
 .animated-button2{
-	background:linear-gradient(-30deg, #bb2231 50%, #dc3545 50%);
+	background:linear-gradient(-30deg, #bb2231 50%, #00f068 50%);
 	padding:20px 40px;
 	display:inline-block;
 	-webkit-transform:translate(0%, 0%);
