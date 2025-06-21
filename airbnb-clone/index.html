@@ -3193,18 +3193,6 @@
             </div>
         </div>
         <!--Our Industrial Solutions END-->
-        <!--What our client says BEGIN-->
-        <div id="clientreview-placeholder"></div>
-        <script>
-            fetch("https://www.trioangle.com/redesign/common/client-reviews.html")
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById("clientreview-placeholder").innerHTML = data;
-                })
-                .catch(error => console.error('Error loading client-reviews:', error));
-
-        </script>
-        <!--What our client says END-->
 
         <!--Our Pricing Plans BEGIN-->
         <div class="gradient-bg position-relative">
